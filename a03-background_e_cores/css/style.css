@@ -1,0 +1,8 @@
+.fe {
+   background-color: #000000;
+   color: #ffffff;
+}
+.be {
+   background-color: rgba(red, green, blue, 0.5);
+}
+/* O "a" (alpha) do rgb define a opacidade, que vai de 0 a 1. */

@@ -1,0 +1,27 @@
+body {
+   height: 1500px;
+}
+h1 {
+   border: 2px solid #ccc;
+   padding: 20px 20px 200px 20px
+}
+p {
+   background-color: #e7e7e7;
+   border: 1px solid black;
+   padding: 20px;
+   font-size: 20px;
+   margin: 0px;
+}
+.fixo {
+   text-align: center;
+   position: fixed;
+   right: 20px;
+   left: 20px;
+   bottom: 10px
+}
+/* Postion: Fixed: Deixa fixo o elemento na tela
+   Relative: possibilita movimentar o elemento a partir de onde foi criado
+   Absolut: possibilita movimentar o elemento a partir de onde foi criado, porém ele não ocupa mais o espaço inicial */
+   /* z-index: 1 = Da prioridade para o elemento ficar acima dos outros na página
+      0 = padrão
+      -1 = O elemento abaixo dos outros na página */

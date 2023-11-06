@@ -1,0 +1,14 @@
+h1, div, p {
+   border: 1px solid rgba(255, 0, 0, 0.5);
+}
+span, a, strong {
+   border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.edit {
+   padding: 5px;
+}
+.edit2 {
+   display: inline-block;
+   padding: 5px;
+}
+/* display: inline-block transforma um elemento inline em block, como no exemplo, faz o pai respeitar o padding do filho */

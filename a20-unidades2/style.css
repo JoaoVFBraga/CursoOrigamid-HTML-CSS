@@ -1,0 +1,13 @@
+body {
+   margin: 0px;
+}
+div {
+   background-color: aquamarine;
+   width: calc(100vw - 100px);
+   height: 100vh;
+}
+/* vh representa o tamanho da altura da tela visível (viewport height) e vw da largura (viewport width). 100vw = 100% da largura da tela visível. */
+/* calc() é uma função de css que retorna um valor com base no cálculo efetuado entre os (). Podemos combinar unidades.
+calc(100vw / 3)
+calc(100% - 20px)
+*/

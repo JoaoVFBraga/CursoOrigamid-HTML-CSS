@@ -1,0 +1,10 @@
+.img1 {
+   max-width: 100%;
+}
+div {
+   width: 300px;
+}
+/* Max-width define a largura maxima da imagem sendo 100% o tamanho do elemento pai */
+.img2 {
+   width: 600px;
+}

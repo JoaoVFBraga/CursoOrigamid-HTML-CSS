@@ -1,0 +1,55 @@
+a {
+   display: inline-block;
+   padding: 1rem 1.5rem;
+   font-size: 1.5rem;
+   font-family: arial;
+   text-decoration: none;
+   background-color: #caf;
+   color: #217;
+   transition: 0.2s;
+}
+
+a:hover {
+   background-color: #adf;
+   color: #147;
+}
+/* Define o estilo ao passar o mouse por cima do elemento */
+
+a:focus {
+   background-color: #cfa;
+   color: #371;
+}
+/* Define o estilo do foco (ao apertar tab) */
+
+a:active {
+   background-color: #ffa;
+   color: #761;
+}
+/* Define o estilo ao clicar no elemento */
+
+/* a:visited {
+   background-color: #fda;
+   color: #731
+} */
+/* Define o estilo de um link já visitado */
+
+.lista-1 li:first-child {
+   background-color: rgb(180, 123, 180);
+}
+.lista-1 li:last-child {
+   background-color: rgb(134, 180, 123);
+}
+.lista-1 li:nth-child(2) {
+   background-color: rgb(180, 151, 123);
+}
+/* Podemos definir um número apenas, even (pares), odd (ímpares) e 3n (de 3 em 3) */
+.lista-2 li:nth-child(even) {
+   background-color: rgba(82, 126, 170, 0.692);
+}
+.lista-2 li:nth-child(odd) {
+   background-color: rgba(82, 126, 170, 0.514);
+}
+
+.menu h2:not(:last-child) {
+   text-decoration: underline;
+}

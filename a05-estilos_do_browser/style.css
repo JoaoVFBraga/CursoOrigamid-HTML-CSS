@@ -1,0 +1,8 @@
+body {
+   color: blueviolet;
+}
+/* O estilo é herdado aos filhos, exceto para aqueles que já tem estilo definido pelo browser, como é o caso do "a" e do "buttom" */
+a, button {
+   color: inherit
+}
+/* Pars fazer com que um filho que ja tem estilo definido, herde o estilo do pai, usamos "inherit" */

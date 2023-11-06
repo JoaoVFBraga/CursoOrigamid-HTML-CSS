@@ -1,0 +1,19 @@
+body {
+   margin: 0;
+}
+
+div {
+   background-color: rgba(92, 186, 230, 0.5);
+   width: 140px;
+   height: 100px;
+   padding: 15px;
+   border: 5px solid #000;
+   margin: 10px;
+}
+/* O padding faz aumentar os valores de width e height, totalizando 170px para width (15 left e 15 right) e 130px para height (15 top e 15 bottom), assim como border também aumenta, totalizando 180px para width e 140px para height. */
+h1 {
+   background-color: blueviolet;
+   padding: 15px;
+   border: 3px solid #000 ;
+   margin: 10px;
+}

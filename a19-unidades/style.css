@@ -1,0 +1,16 @@
+a {
+   text-decoration: none;
+   color: whitesmoke;
+   background-color: darkblue;
+   padding: 1rem 2rem;
+   display: inline-block;
+}
+.px {
+   font-size: 32px;
+   padding: 16px 32px;
+}
+.rem {
+   font-size: 2rem;
+   padding: 1rem 2rem;
+}
+/* A unidade rem usa como base a medida padrão do html que é 16px, ou seja 2 rem equivalem a 32px, a diferença é que o rem facilita na hora da acessibilidade */

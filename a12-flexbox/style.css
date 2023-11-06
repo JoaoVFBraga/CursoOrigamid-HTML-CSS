@@ -1,0 +1,33 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+.flex {
+   display: flex;
+   flex-wrap: wrap; /*Ao não caber mais na tela, os elementos são colocados numa nova linha, ao invés de surgir uma barra de rolagem na horizontal*/
+   gap: 20px;
+}
+.grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+   /* auti-fit: cria quantas colunas couberem na tela */
+}
+h1 {
+   text-align: center;
+   border: 1px solid #b4b4b4;
+   background-color: #ffe5e5;
+}
+h2 {
+   background-color: #e7e7e7;
+   border: 1px solid #d7d7d7;
+   padding: 10px;
+   flex-grow: 1;
+   /* Distribui o espaço em branco dentro dos elementos, é acrescentado o espaço após o conteúdo dos elementos */
+   flex-basis: 0;
+   /* 0 = Deixa todos os elementos do mesmo tamanho
+   Podemos escolher o tamanho dos elementos */
+   flex-shrink: 0;
+   /* 0 = Não deixa o conteúdo quebrar linhas quando não houver mais espaço
+      1 = Valor padrão, permite que as linhas sejam quebradas */
+   flex: 1;
+   /* É um atalho para flex-grow: 1, flex-shrink: 1 e flex-basis:0 */
+}

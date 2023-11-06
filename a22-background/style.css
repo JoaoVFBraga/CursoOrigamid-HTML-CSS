@@ -1,0 +1,31 @@
+.linear {
+   height: 300px;
+   background-image: linear-gradient(45deg, rgb(83, 20, 184), rgb(12, 189, 233));
+   /* Gradiente linear: Define-se o sentido do gradiente, em seguida suas cores, podemos também definir o tamanho de cada cor com uma porcentagem */
+}
+.radial {
+   height: 300px;
+   background-image: radial-gradient(rgb(0, 255, 0), blue, rgb(111, 0, 255));
+}
+.teste {
+   height: 600px;
+   background-color: aquamarine;
+   background-image: url("./img/bicicleta.jpg");
+   background-repeat: no-repeat;
+   /* Não deixa a imagem se repetir */
+   background-size: cover;
+   /* A imagem vai ocupar todo o espaço definido */
+   background-position: center;
+   /* Caso haja necessidade de cortar a imagem, ela manterá o centro e começará ser cortada pelas laterais */
+   display: flex;
+}
+h1 {
+   margin: auto;
+   background-color: rgb(255, 255, 255);
+   padding: 1rem 1.5rem;
+}
+.pattern {
+   height: 300px;
+   background-color: lightcoral;
+   background-image: url("img/pattern.svg");
+}

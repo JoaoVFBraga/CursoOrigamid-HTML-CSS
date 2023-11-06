@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Semântica</title>
+</head>
+<body>
+   <header>
+      <nav aria-label="primeira"> <!-- Cria uma "etiqueta" para a tag -->
+         <a href="#">Início</a>
+         <a href="#">Contato</a>
+         <a href="#">Sobre</a>
+      </nav>
+      <!-- Marca uma área de navegação -->
+   </header>
+   <!-- Marca o cabeçalho da página -->
+   <main>
+      <h1>Nosso site</h1>
+      <p>Seja bem-vindo(a) ao nosso site! :)</p>
+   </main>
+   <!-- Marca o conteúdo principal do site -->
+   <article aria-labelledby="firstsite"> <!-- Utiliza o h2 com o mesmo id como etiqueta -->
+      <h2 id="firstsite">Primeiro site feito por mim!</h2>
+      <p>Após um tempo de estudo consegui criar um site sozinho.</p>
+   </article>
+   <!-- A tag article representa uma região do site que é autoexplicativa (não precisa do restante do site para fazer sentido). -->
+   <section>
+      <h2>Primeiro site feito por mim!</h2>
+      <p>Após um tempo de estudo consegui criar um site sozinho.</p>
+   </section>
+   <!-- Com o section, geralmente o conteúdo necessita do seu contexto para ser compreendido. -->
+   <aside>
+      <a href="#">Conteúdo relacionado</a>
+      <a href="#">Mais vistos</a>
+   </aside>
+   <!-- Aside é usado para marcar um conteúdo complementar do site -->
+   <footer>
+      <p>Alguns direitos reservados.</p>
+   </footer>
+   <!-- Marca o rodapé da página -->
+</body>
+</html>
