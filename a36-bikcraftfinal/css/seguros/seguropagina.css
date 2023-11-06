@@ -1,0 +1,12 @@
+.seguro-inicio {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    color: var(--cor-7);
+}
+.seguro-inicio p {
+    color: var(--cor-0);
+}
+.seguro-inicio-container {
+    background-color: var(--cor-11);
+}

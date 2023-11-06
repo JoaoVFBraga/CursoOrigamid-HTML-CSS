@@ -1,0 +1,40 @@
+.footer {
+    background-color: var(--cor-12);
+}
+.footercontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+.footercontainer h3 {
+    color: var(--cor-0);
+    margin-bottom: 20px;
+}
+.footercontainer a {
+    color: var(--cor-6);
+}
+.footercontainer li {
+    padding: 5px;
+}
+.redessociais {
+    display: flex;
+    gap: 10px;
+}
+.linkfooter:hover {
+    color: var(--cor-0);
+}
+.footerp {
+    color: var(--cor-6);
+}
+
+@media (max-width: 600px) {
+    .footersvg {
+        display: none;
+    }
+    .footercontainer {
+        grid-template-columns: 1fr;
+    }
+}

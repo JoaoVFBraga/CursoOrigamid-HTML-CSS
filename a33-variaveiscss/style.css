@@ -1,0 +1,28 @@
+:root {
+   --tamanho-titulo: 3rem;
+   --cor-primaria: #84e;
+   --cor-secundario: #000;
+   --cor-de-fundo: #fff;
+}
+/* :root é o local mais indicado para se definir uma váriavel  css, pois aqui o estilo também será aplicado em svg's. */
+/* Para definirmos uma várivael basta utilizar "--" seguido do nome da mesma, em seguida o seu valor. */
+
+@media (prefers-color-scheme: dark) {
+   :root {
+      --tamanho-titulo: 3rem;
+      --cor-primaria: rgb(195, 163, 243);
+      --cor-secundario: #fff;
+      --cor-de-fundo: #222;
+   }
+}
+body {
+   background-color: var(--cor-de-fundo);
+}
+h1 {
+   font-size: var(--tamanho-titulo);
+   color: var(--cor-primaria);
+}
+p {
+   font-size: calc(var(--tamanho-titulo) / 2);
+   color: var(--cor-secundario);
+}

@@ -1,0 +1,27 @@
+[required] {
+   border: 2px solid red;
+}
+/* Seleciona os elementos que tiverem o atributo dentro dos []. */
+[for="check1"] {
+   color: blueviolet;
+}
+/* Seleciona apenas o elemento que tiver o atributo e o valor. */
+[href^="#"] {
+   border: 2px solid greenyellow;
+}
+/* Atributos que comecem com o valor. */
+[href$=".com/"] {
+   border: 2px solid fuchsia;
+}
+/* Atributos que terminem com o valor. */
+div > p {
+   font-style: italic;
+}
+/* Seleciona apenas os "p" que forem filhos diretos de "div". */
+article {
+   background-color: aquamarine;
+}
+p + p {
+   margin-top: 40px;
+}
+/* Seleciona todos os "p" que vierem após um "p" (o primeiro não será selecionado). */

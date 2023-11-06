@@ -1,0 +1,31 @@
+.termos-titulo-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+.termos-titulo {
+    background-color: var(--cor-11);
+}
+.termos-titulo p {
+    color: var(--cor-6)
+}
+.termos-titulo h1 {
+    color: var(--cor-0);
+    text-transform: lowercase;
+}
+.termos {
+    padding: 20px 20px 50px 20px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.termos h2 {
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.termos p {
+    padding-top: 15px;
+    font-size: 1.125rem;
+}

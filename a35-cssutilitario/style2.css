@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+}
+
+.big-text {
+    padding-left: 20px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.small-text {
+    padding-left: 20px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.first-color {
+    color: #06f;
+}
+
+.sec-color {
+    color: #707070;
+}
+
+.bt {
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: #06f;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap30 {
+    gap: 30px;
+}
