@@ -1,0 +1,6 @@
+.texto {
+    display: none;
+}
+.texto.textoBlock {
+    display: block;
+}
